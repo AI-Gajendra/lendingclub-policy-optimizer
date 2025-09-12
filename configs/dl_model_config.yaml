@@ -1,0 +1,20 @@
+
+# --- Data Configuration ---
+train_data_path: "data/processed/train_scaled.csv"
+test_data_path: "data/processed/test_scaled.csv"
+target_column: "target"
+
+# --- Model Architecture ---
+
+hidden_layers: [256, 128, 64]
+
+dropout_rate: 0.4
+
+# --- Training Hyperparameters ---
+learning_rate: 0.0005
+epochs: 10
+batch_size: 512
+
+# --- Output Configuration ---
+model_save_path: "outputs/models/deep_learning_classifier.pth"
+metrics_save_path: "outputs/reports/dl_metrics.json"

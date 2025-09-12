@@ -1,0 +1,17 @@
+# Core libraries for data manipulation and machine learning
+pandas
+numpy
+scikit-learn
+pyyaml
+joblib
+
+# Deep learning framework
+torch
+
+# Offline Reinforcement Learning framework
+d3rlpy
+
+# For EDA in notebooks
+jupyter
+matplotlib
+seaborn

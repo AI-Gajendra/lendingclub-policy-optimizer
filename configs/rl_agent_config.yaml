@@ -1,0 +1,22 @@
+# --- Data Configuration ---
+train_data_path: "data/processed/train_unscaled.csv"
+train_data_path_scaled: "data/processed/train_scaled.csv"
+
+test_data_path: "data/processed/test_unscaled.csv"
+test_data_path_scaled: "data/processed/test_scaled.csv"
+target_column: "target"
+
+
+reward_columns:
+  loan_amount: "loan_amnt"
+  interest_rate: "int_rate"
+
+# --- RL Agent Hyperparameters ---
+algorithm: "cql"
+n_steps: 100000
+gpu: -1
+
+# --- Output Configuration ---
+model_save_path: "outputs/models/offline_rl_agent.d3"
+
+metrics_save_path: "outputs/reports/rl_policy_value.json"
